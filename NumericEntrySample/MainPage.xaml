@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:inputs="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs"
+             x:Class="NumericEntrySample.MainPage">
+
+    <VerticalStackLayout Spacing="15" Padding="10">
+        
+        <Label Text="SfNumericEntry"/>
+        <inputs:SfNumericEntry 
+                x:Name="numeric" 
+                HeightRequest="40" 
+                Background="Lavender"/>
+        
+        <Label Text="Picker"/>
+        <Picker Title="Select Return Type" 
+            Background="Lavender" 
+            SelectedIndexChanged="Picker_SelectedIndexChanged">
+            <Picker.Items>
+                <x:String>Go</x:String>
+                <x:String>Next</x:String>
+                <x:String>Return</x:String>
+                <x:String>Done</x:String>
+                <x:String>Send</x:String>
+                <x:String>Search</x:String>
+            </Picker.Items>
+        </Picker>
+        
+    </VerticalStackLayout>
+    
+</ContentPage>

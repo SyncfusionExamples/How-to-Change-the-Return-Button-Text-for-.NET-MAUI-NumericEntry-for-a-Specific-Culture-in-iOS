@@ -1,4 +1,4 @@
-# How-to-Change-the-Return-Button-Text-for-.NET-MAUI-NumericEntry-for-a-Specific-Culture-in-iOS
+# How to Change the Return Button Text for .NET MAUI NumericEntry for a Specific Culture in iOS?
 This repository contains a sample explaining How to Change the Return Button Text for .NET MAUI NumericEntry for a Specific Culture in iOS 
 
 To modify the return button text of the keyboard, follow these steps to initialize localization for the [NumericEntry](https://www.syncfusion.com/maui-controls/maui-numeric-entry) control: 
